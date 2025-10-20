@@ -1,0 +1,79 @@
+/* Certificate.css */
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f0f4f8;
+  }
+  
+  .certificate-content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .congrats-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-section {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .team-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team-section li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .company-name {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .back-button, .download-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .back-button {
+    background-color: #28a745;
+  }
+  
+  .download-button {
+    background-color: #ffc107;
+  }
+  

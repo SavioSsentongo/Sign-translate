@@ -1,0 +1,90 @@
+.level-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.level-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.image-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.choice-image {
+  width: 150px;
+  height: auto;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.choice-image:hover {
+  transform: scale(1.05);
+}
+
+.choice-image.correct {
+  border-color: green;
+}
+
+.choice-image.incorrect {
+  border-color: red;
+}
+
+.question-number {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.answers-review {
+  padding: 2rem;
+}
+
+.answer-card {
+  background: #f8f9fa;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.popup-content button {
+  margin: 1rem;
+}
+
+.certificate {
+  margin-top: 3rem;
+}
